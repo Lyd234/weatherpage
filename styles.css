@@ -1,0 +1,38 @@
+body{
+background-image: url('background.jpg');
+background-size: cover;
+}
+#weather-form {
+  text-align: center;
+  margin-top: 40px;
+}
+#weather-form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+}
+#weather-form button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#weather-widget {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  margin: 20px auto;
+}
+#weather-widget h3 {
+  margin-top: 0;
+  text-align: center;
+}
+.section {
+  margin-bottom: 15px;
+}
+#weather-widget a {
+  text-decoration: none;
+  color: #007BFF;
+}
